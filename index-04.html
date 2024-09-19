@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout</title>
+    <style>
+        body{
+            background-image: linear-gradient(red);
+            background-repeat: no-repeat;
+        }
+        .container{
+            background-color: antiquewhite;
+            width: 90%;
+            margin: 0 auto;
+        }
+        .header{
+            background-color: aqua;
+            height: 100px;
+
+        }
+        .footer{
+            background-color: rgb(200, 188, 188);
+            height: 80px;
+            clear: both;
+        }
+        .left{
+            background-color: azure;
+            height: 450px;
+            width: 20%;
+            float: left;
+        }
+        .main{
+            background-color: blueviolet;
+            height: 450px;
+            width: 60%;
+            float: left;
+            border: 1px solid black;
+            box-sizing: border-box;
+        }
+        .right{
+            background-color: beige;
+            height: 450px;
+            width: 20%;
+            float: left;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">Header</div>
+        <div class="left"><a href="https://www.google.com/" target="_blank">Home</a> <br>
+            <a href="https://www.google.com/" target="_blank">Product</a> <br>
+            <a href="https://www.google.com/" target="_blank" >Download</a> <br>
+            <a href="https://www.google.com/" target="_blank">Contact</a> <br>
+            <a href="https://www.google.com/" target="_blank">Other</a>
+        </div>
+        <div class="main">Main</div>
+        <div class="right">Right</div>
+        <div class="footer">Footer</div>
+    </div>
+</body>
+</html>
